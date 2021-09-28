@@ -93,7 +93,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-0 p-8 ml-4 cursor-pointer lg:hidden md:hidden hidden sm:flex">
+      <div className="absolute bottom-0 p-8 ml-4 cursor-pointer hidden sm:flex">
         <div className="flex-col gap-8 sm:flex">
           <Image src={Facebook} alt="Facebook" />
           <Image src={Instagram} alt="Instagram" />
