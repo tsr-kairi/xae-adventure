@@ -1,4 +1,4 @@
-# Xae-Adventure-Project ---> [https://xae-adventure-7glyz9xq9-tsr-xae.vercel.app/]
+# [Xae-Adventure-Project --->](https://xae-adventure-7glyz9xq9-tsr-xae.vercel.app/)
 
 # Next.js + Tailwind CSS Example
 
