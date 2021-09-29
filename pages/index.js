@@ -14,7 +14,7 @@ export default function Home() {
   const [isActive, setIsActive] = useState(true);
 
   return (
-    <div className="overflow-hidden h-screen relative bg-gradient-to-r from-[#2C4550] to-[#0C0C0C] text-white">
+    <div className="relative bg-gradient-to-r from-[#2C4550] to-[#0C0C0C] text-white">
       <div className="absolute md:h-screen lg:h-screen sm:h-screen sm:w-[1px] ml-32 bg-[#FFFFFF]"></div>
 
       <div className="flex flex-col">
@@ -52,7 +52,7 @@ export default function Home() {
           </nav>
         </header>
 
-        <div className="w-full flex  sm:pl-0 pl-6 pb-[9rem] sm:pb-[7.3rem]  sm:mt-4 mt-16 relative">
+        <div className="w-full flex sm:pl-0 pl-6 pb-[15rem] sm:pb-[7.3rem] sm:mt-4 mt-16 relative">
           <div className="relative flex flex-col w-[50%] ml-0 sm:ml-56">
             <div className="absolute w-[250%] sm:w-[85%] sm:left-28 z-50 sm:top-5 top-24">
               <h1 className="text-5xl sm:text-6xl font-bold mb-2 sm:mb-6">
@@ -69,7 +69,7 @@ export default function Home() {
             <Image src={BG} alt="BG" />
           </div>
 
-          <div className="gap-4 flex top-[21.5rem] right-0 absolute h-[180px] sm:h-[220px] sm:w-[1237px] bg-gradient-to-bl">
+          <div className="gap-4 flex sm:top-[23rem] top-[19rem] right-0 absolute h-[180px] sm:h-[220px] sm:w-[1220px] bg-gradient-to-bl">
             <div className="flex">
               <div className="w-[40px] sm:w-[180px]"></div>
               <Image src={Moon} alt="Moon" />
